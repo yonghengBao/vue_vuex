@@ -1,0 +1,27 @@
+.sell-con{width:100%;height:6.5rem;border-bottom:1px solid #E4E4E4;text-align:center;}
+.seller{width:3.5rem;height:3.5rem;display:block;margin:1.25rem auto;}
+.seller img{width:100%; height:100%;}
+.sell-con p{font-size:.7rem;}
+.sell-con .selNumber{margin-right:.1rem;}
+.sell-con .selName{margin-left:.1rem;}
+.pay-con{width:100%;height:5.5rem;border-bottom:1px solid #E4E4E4;}
+.pay-money{font-size: .8rem;text-indent: .6rem;margin:.5rem 0;}
+.money-icon{font-size:1.5rem;display:block;float:left;margin:0 .5rem 0 .5rem;}
+.money-con{width:100%;height:2rem;line-height:2rem;margin-top:1rem;}
+.money-con input{font-size:1rem;font-weight:bold;color:#333;border:none;outline:none;background:none;}
+.mon::-webkit-input-placeholder{color:#ccc;}
+.mon:-moz-placeholder{color:#ccc;}
+.mon::-moz-placeholder{color:#ccc;}
+.mon:-ms-input-placeholder{color:#ccc;}
+.wayT{font-size: .8rem;line-height:2rem;}
+.way-con ul li{border-top: 1px solid #E4E4E4;padding:.2rem .5rem .2rem .5rem;line-height:1rem;}
+.way-con ul li:last-child{border-bottom: 1px solid #e4e4e4;}
+.type{font-size: .7rem;padding: .2rem 0 0 0;}
+.tip{color: #1ABC9C;font-size: .4rem;}
+.time{color: red;font-size: .4rem;}
+.guest-li{position:relative;min-height:3.8rem;}
+.payBtn{display:block;border-radius:5px; width:90%;margin:1rem auto;color:#fff;background-color:#1ABC9C;font-size:16px;border:none;padding:.5rem 0;margin-top:1rem;}
+.vux-cell-box{width:100%;height:3.5rem;padding-top:2.5rem;position:absolute;bottom:0.2rem;left:.5rem;z-index: 3;font-size:.4rem !important;color:#666;}
+.picked{width:.8rem;height:.8rem;display:block;float:right;margin:.3rem .5rem 0 0;background:url("../assets/picked.png");background-size:100% 100%;opacity:0;}
+.opacity{opacity:1}
+.way-con >>> .vux-popup-picker-select{width:100%;height:3.5rem;padding-top:2.5rem;margin-top:-2.5rem;}

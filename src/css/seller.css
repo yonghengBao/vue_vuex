@@ -1,0 +1,12 @@
+body{background: #fff;}
+.header{background: #f2f2f2;}
+.money{background: #fff;}
+.moneyT{border-top: 1px solid #E4E4E4;text-align: center;height: 2rem;line-height: 2rem;font-size: .8rem;}
+.money h1{border-top: 1px solid #E4E4E4;border-bottom: 1px solid #E4E4E4;text-align: center;height: 8rem;line-height: 8rem;}
+.money span{position: absolute;left: .5rem;font-weight: normal;}
+
+.newsT{border-left: .2rem solid #1ABC9C;margin: 3rem 0 .5rem .5rem;text-indent: .5rem;font-size: .7rem;height: .8rem;line-height: .8rem;}
+.msg{border-top: 1px solid #E4E4E4;}
+
+.msg li{font-size: .7rem;margin-top: 1rem;list-style:none;}
+.msg li span{margin: 0 1rem 0 .5rem;}

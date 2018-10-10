@@ -1,0 +1,41 @@
+/**
+公共样式
+**/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul li{list-style: none}
+html {
+  height: 100%;
+  font-size: 20px;
+}
+body{
+  height: 100%;
+  color: #333;
+  background-color: #f9f9f9;
+  font-family: '微软雅黑';
+}
+.myApp {
+  color: #2c3e50;
+  height: 100%;
+  width: 100%;
+  /*max-width: 600px;*/
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+  text-align: center;
+  /*background-color: #eee*/
+}
+.myApp a {
+  color: #42b983;
+  text-decoration: none;
+}
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.clear-top:before{
+  content:"";
+  display:table;
+}

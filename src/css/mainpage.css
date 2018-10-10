@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/***侧边栏start***/
+.myApp{
+  text-align: left;
+  font-size: 14px;
+  font-family: '微软雅黑';
+}
+@media screen and (min-width:350px) {
+  .layout{
+    width: 260px;
+  }
+}
+@media screen and (min-width:280px) and (max-width:350px) {
+  .layout{
+    width: 220px;
+  }
+}
+.portrait{
+  height: 6rem;
+  width: 100%;
+  /*background:#fff url("../assets/person.png") no-repeat center center;*/
+  background-image: url("../assets/person.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem auto;
+  text-align: center;
+  padding-top: 5rem;
+}
+.aside-menus{
+  padding:0 .5rem;
+}
+ul.aside-menus li{
+  color: #999;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+ul.aside-menus li img{
+  vertical-align: middle;
+  margin-right: .2rem;
+}
+ul.aside-menus li .switch{
+  float: right;
+  top:.5rem;
+  background: #1abc9c;
+  border-color: #ddd;
+}
+/*.weui-switch:before, .weui-switch-cp__box:before{*/
+/*}*/
+/*.weui-switch:after, .weui-switch-cp__box:after{*/
+  /*transform:translateX(2.3rem);*/
+/*}*/
+.eat-descripte{
+  padding: 0 .5rem;
+  position: absolute;
+  bottom:4.2rem;
+  font-size: .6rem;
+  color: #999;
+}
+.eat-descripte ul li{
+  line-height: 1.2rem;
+}
+.quit{
+  position: absolute;
+  right: .5rem;
+  bottom:.5rem;
+}
+.quit span{
+  color: #999;
+  font-size: .7rem;
+}
+/***侧边栏end***/
+.bar{
+  text-align: center;
+  height: 2.25rem;
+  background: #f2f2f2;
+  line-height: 2.25rem;
+  font-size: .8rem;
+  color: #333;
+  font-weight: 700;
+}
+.bar img{
+  width: 1rem;
+  float: left;
+  margin: .625rem 0 0 .625rem;
+  vertical-align: middle;
+  opacity: .8;
+}
+.tab-menus{
+  background:#1abc9c;
+  color: #fff;
+  font-size: .7rem;
+}
+.tab-menus ul{
+  height: 5.25rem;
+  padding: 0 2rem;
+  display:-webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content:space-between;
+  justify-content:space-between;
+  -moz-box-pack:space-between;
+  -webkit--moz-box-pack:space-between;
+  box-pack:center;
+  align-items:center;
+  -webkit-align-items:center;
+  box-align:center;
+  -moz-box-align:center;
+  -webkit-box-align:center;
+}
+.tab-menus ul li{
+  text-align: center;
+}
+.tab-menus ul li div{
+  width: 2rem;
+  height: 2rem;
+}
+.tab-menus img{
+  width: 2rem;
+}
+.new-status{
+
+}
+.new-status>p{
+  padding:0 .5rem;
+  height: 2rem;
+  color: #000;
+  line-height: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+.new-status p i{
+  display: inline-block;
+  width: 7px;
+  height: 16px;
+  background: #1abc9c;
+  position: relative;
+  top:2px;
+}
+.new-status ul{
+  padding: .3rem .5rem;
+  font-size: .7rem;
+  color: #333;
+}
+.new-status ul li{margin-bottom: .2rem}
+.new-status ul li p .createTime{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.new-status ul li p.detail{
+  padding: 0 0 .3rem .3rem;
+}
+
+
+

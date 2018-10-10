@@ -1,0 +1,14 @@
+body{height:100%; overflow:hidden;}
+.con{width:100%;height:100%;background:#F9F9F9; position:absolute;}
+.approval{border-top: 1px solid #E4E4E4;background: #fff;height:100%;overflow:auto;margin-top:2rem;}
+.approval li{height: 3rem;border-bottom:1px solid #E4E4E4;margin:.3rem 0 .3rem .5rem;}
+.left,.center,.right{float: left;height: 2.5rem;}
+.left{width: 48%;}
+.center{width:38%;}
+.right{width:14%;}
+.left p{height: 1.5rem;text-align:left;text-indent:0;}
+.center .date{line-height: 2.5rem;font-size: .6rem;color: #999;}
+.name{height: .9rem;font-size: .8rem;float:left;}
+.approver{font-size:.6rem;color:#999;clear:both;}
+.icon{width:1.5rem;height:.9rem;display:block;float:left;margin-top:.2rem;background:#FF0000;color:#fff;margin-left:.2rem;font-size:.6rem;border-radius:.5rem;line-height:.9rem;text-align:center;}
+.goDetail{float:left;line-height:2.5rem;color:#E6E6E6;font-size:1.2rem;}

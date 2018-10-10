@@ -1,0 +1,23 @@
+body{height:100%; overflow:hidden;}
+.con{width:100%;height:100%;background:#F9F9F9; position:absolute;}
+.login-con{width:100%;height:9.5rem;padding-top:5rem;}
+.person-icon{width:4rem;height:4rem;display:block;margin:0 auto;background:url("../assets/person.png");background-size:100% 100%;}
+.login-input{background-color:#F9F9F9;font-size:12px;border-bottom:1px solid #ddd;}
+.login-input::-webkit-input-placeholder{color: #CCC;}
+.phone-icon{padding:0 .5rem 0 0;display:block;width:24px;height:24px;background: url("../assets/identity.png");background-size:100% 100%;}
+.pwd-icon{padding:0 .5rem 0 0;display:block;width:24px;height:24px;background: url("../assets/password.png");background-size:100% 100%;}
+.login-group{margin:0 2.75rem;position:relative;width:80%;height:5rem;margin:1rem auto;}
+.login-group p{font-size:12px;color:#999;padding:.75rem .7rem;background:#F9F9F9;border-bottom:1px solid #E4E4E4;vertical-align:center;}
+.login-group input{border:none;outline:none;margin-top:.3rem;}
+.login-group span{float:left;margin-right:.7rem;}
+.switch-con{position:relative;position:absolute;z-index:3;bottom:0;right:0.1rem;}
+.weui-switch, .weui-switch-cp__box,.weui-switch:before, .weui-switch-cp__box:before{width:3rem;height:1rem;}
+.weui-switch:checked:after, .weui-switch-cp__input:checked ~ .weui-switch-cp__box:after{transform:translateX(2.1rem);}
+.weui-switch:after, .weui-switch-cp__box:after{width:.8rem;height:.8rem;margin:0.09rem 0;}
+.weui-switch:checked, .weui-switch-cp__input:checked ~ .weui-switch-cp__box{border-color:#1ABC9C;background-color:#1ABC9C;}
+.weui-switch:before, .weui-switch-cp__box:before{background-color:#ddd;content:"***";text-align:center;line-height:1.4rem;color:#fff;}
+.open{position:absolute;left:.7rem;top: .34rem;color:#fff;font-size:10px;}
+.loginBtn{display:block;border-radius:99px; width:70%;margin:20px auto;background-color:#1ABC9C;color:#fff;font-size:16px;border:none;padding:.5rem 0}
+.forget{color:#1ABC9C;text-align:right;font-size:12px;margin:10px 55px 0 0;}
+.noid{text-align:right;font-size:12px;margin:10px 55px 0 0;color:#666;}
+.goReg{color:#1ABC9C;}

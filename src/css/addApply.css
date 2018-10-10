@@ -1,0 +1,20 @@
+.applyForm{margin: .5rem 1rem;border: 1px solid #E4E4E4;border-bottom: none;}
+.checkBox{width: 100%;overflow: hidden;}
+.checkBox p{float: left;margin: .5rem 0 .5rem .75rem;}
+.checkList{float: right;width: 70%;right: 0;}
+.input{border: none;outline: none;text-indent: .5rem;}
+ul li{padding: 10px 15px;padding-right: 0;}
+.addUl{width: 90%;border-right: 1px solid #E4E4E4;position: relative;}
+.delBtn{position: absolute;right: -1.7rem;top: 1.45rem;}
+.addBtn{float: right;font-size: .8rem;color: #1ABC9C;margin-right: 2rem;}
+.subApply{width: 90%;height: 2.5rem;background: #1ABC9C;position: absolute;left: 50%;margin-left: -45%;bottom: 0;border: none;outline: none;border-radius: .2rem;color: #fff;font-size: .8rem;}
+.applyForm >>>.weui-cells:before {height: 0!important;border-top: none!important;}
+.applyForm >>>.weui-cells:after {height: 0!important;border-bottom: none!important;}
+.applyForm >>>.weui-cell:before {height: 0!important;border-top: none!important;}
+.applyForm >>>.weui-cells{font-size: .7rem;color: #999;}
+.applyForm >>>.vux-cell-box:not(:first-child):before{height: 0!important;border-top: none!important;}
+.applyForm >>>.vux-cell-placeholder{color: #ccc!important;}
+.applyForm >>>.weui-check_label{padding: .5rem 0!important;}
+.vux-datetime{color: #999;}
+.weui-cell,.vux-cell-box,.checkBox,ul li{border-bottom: 1px solid #E4E4E4;}
+.input::-webkit-input-placeholder{color: #ccc;}

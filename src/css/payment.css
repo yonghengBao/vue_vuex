@@ -1,0 +1,12 @@
+body{background: #fff;}
+.codeImg{border-top: 1px solid #e4e4e4;text-align: center;padding: 4rem 0;}
+/*.codeImg img{display: block;width: 8rem;height: 8rem;margin: 4rem auto;}*/
+.wayT{font-size: .8rem;padding-left:.5rem;}
+.type{font-size: .7rem;padding: .2rem 0 0 0;}
+.tip{color: #1ABC9C;font-size: .4rem;}
+.time{color: red;font-size: .4rem;}
+.vux-cell-box{width:100%;height:3.5rem;padding-top:2.5rem;position:absolute;bottom:0.2rem;left:.5rem;z-index: 3;font-size:.4rem !important;color:#666;}
+.picked{width:.8rem;height:.8rem;display:block;float:right;margin:.3rem .5rem 0 0;background:url("../assets/picked.png");background-size:100% 100%;opacity:0;}
+.opacity{opacity:1}
+.way ul li{border-top: 1px solid #E4E4E4;padding:.2rem .5rem .2rem .5rem;line-height:1rem;position:relative;min-height:3.8rem;}
+.way ul li:last-child{border-bottom: 1px solid #e4e4e4;}

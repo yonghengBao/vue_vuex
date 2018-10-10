@@ -1,0 +1,12 @@
+body{height:100%; overflow:hidden;}
+.con{width:100%;height:100%;background:#F9F9F9; position:absolute;}
+.card{width:80%;height:14.5rem;margin:0 auto;background:#fff;border-radius:15px;margin-top:3.5rem;position:relative;padding:2rem .5rem .5rem .5rem;}
+.card-head{width:100%;height:2.5rem;position:absolute;top:-1.25rem;right:0;z-index:2;}
+.card-icon{width:2.5rem;height:2.5rem;background:url("../assets/ticket.png");background-size:100% 100%;display:block;margin:0 auto;}
+.ticket{text-align:center;color:#333;font-size:.85rem;line-height:1.5rem;border-bottom:1px dashed #ccc;}
+.ticket span{color:#A1A1A1;font-size:.65rem;}
+.ticket .date{text-align:left;margin-top:.5rem;}
+.ticket .date p{font-size:.7rem;}
+.ticket .dec{color:#1ABC9C;font-size:.6rem;text-align:left;}
+.okBtn{width:5rem;height: 2rem;background:#1ABC9C;color:#fff;border:none;border-radius:.2rem;margin:1.1rem auto;display:block;}
+

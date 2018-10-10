@@ -1,0 +1,49 @@
+.coupon-box{height: 100%;}
+.fix-bar{width:100%;position:absolute;left:0;top:0;z-index:100;background-color: #f9f9f9;}
+.header-top{
+  height: 2rem;
+  display: inline-block;
+}
+.back{
+  margin-left:.6rem;
+  margin-right:.2rem;
+  vertical-align: middle;
+}
+.backTitle{
+  font-size: .8rem;
+  color: #333;
+  line-height: 2rem;
+}
+ul.bar-status{
+  width:100%;
+  margin-top: 2rem;
+  border:1px solid #1abc9c;
+}
+ul.bar-status li{
+  height: 2rem;
+  float: left;
+  line-height: 2rem;
+  font-size: 14px;
+  text-align: center;
+  width:33.3%;
+}
+ul.bar-status li a{
+  color:#1abc9c;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+ul.bar-status li.active{
+  background:#1abc9c ;
+}
+ul.bar-status li.active a{
+  color: #fff;
+}
+ul.bar-status .hasBorder{
+  border-left: 1px solid #1abc9c;
+  border-right: 1px solid #1abc9c;
+}
+.router-view{
+  margin-top:4.5rem;
+  padding: 0 .5rem;
+}
